@@ -1,0 +1,92 @@
+html, body {
+	height: 100%;
+	background-color: #E57F3D;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 10px 2% 100px 2%;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+.well{
+	padding: 0 0 0;
+	border: 0;
+	border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+	min-width: 10em;
+}
+
+footer {
+  color: white;
+	padding-top: 10px;
+	min-height: 10%;
+	text-align: center;
+	font-family: Port Lligat Slab, serif;
+	background-color: #A35229;
+}
+
+.link a:link, .link a:visited {
+  color: white;
+	text-shadow: 2px 2px 5px;
+  text-decoration: none;
+  cursor: auto;
+}
+
+button {
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Kreon', serif;
+	font-size: 1.25em;
+	background-color: #e5ddcc;
+	border-radius: 0;
+}
+
+button:hover {
+	color: #e5ddcc;
+	background-color: #413d3e;
+}
+
+button:active {
+	background-color: #212121;
+}
+
+button:focus {
+	outline: 5px;
+}
+
+h1 {
+  font-family: Kreon;
+  font-size: 4em;
+}
+
+h2, h3 {
+	font-family: Port Lligat Slab, sans-serif;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.authorImage {
+	max-height: 150px;
+	border-top-left-radius: 0.5em;
+}
+
+.Description {
+	height: 250px;
+	text-align: justify;
+}
+
+.containerImage {
+	height: 150px;
+}
