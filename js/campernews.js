@@ -28,7 +28,7 @@ $(document).ready( function() {
     var time = new Date(article.timePosted);
     var upvotes = article.upVotes.length;
 
-    return '<div class="Description"><table style="width:100%"><tr><th style="padding-left: 10px;">By ' + author + '</th></tr><tr><th style="padding-left: 20px;"><i class="fa fa-thumbs-up"> ' + upvotes + '</i></th></tr><tr><td><h3 style="font-size: 1.5em;">' + headline + '</h3></td></tr><tr><td>' + time.toLocaleDateString() + '</td></tr></table></div>';
+    return '<div class="Description"><table style="width:100%"><tr><th style="padding-left: 10px;">By ' + author + '</th></tr><tr><th style="padding-left: 20px;"><i class="fa fa-thumbs-up"> ' + upvotes + '</i></th></tr><tr><td><h3 style="font-size: 1.5em; word-break: break-all;">' + headline + '</h3></td></tr><tr><td>' + time.toLocaleDateString() + '</td></tr></table></div>';
   }
 
 });
